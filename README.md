@@ -1,34 +1,57 @@
-# client
+# Fragment - Collaborative Code IDE
 
-## Project setup
+![Sample App Image](./demo.png)
+
+## What is Fragment?
+This was built to allow me to code with friends. It uses socket.io to allow us to edit the same script in realtime. This way my friends can watch me code while practicing social distancing :), all jokes aside i hope you add fragment as a widget to your website if you frequently code for friends.
+
+## Requirement
+- Vue 3
+- Node.js
+
+## Usage
+
+Clone it!
+
 ```
-yarn install
+$ git clone git@github.com:conceptcodes/fragment.git
 ```
 
-### Compiles and hot-reloads for development
+Go into the project directory and run the command:
+
 ```
-yarn serve
+$ yarn install
 ```
 
-### Compiles and minifies for production
+Compiles and minifies for production
 ```
 yarn build
 ```
 
-### Run your unit tests
+Live development server
+```
+yarn serve
+```
+Open `http://localhost:8080` and enjoy!
+
+
+Run your unit tests
 ```
 yarn test:unit
 ```
 
-### Run your end-to-end tests
+Run your end-to-end tests
 ```
 yarn test:e2e
 ```
 
-### Lints and fixes files
+Lints and fixes files
 ```
 yarn lint
 ```
+## Roadmap
+- add code editor 
+- design smart contract
+- create ERC-721 smart contract
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
